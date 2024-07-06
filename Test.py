@@ -1,37 +1,3 @@
-# import pixellib
-# from pixellib.torchbackend.instance import instanceSegmentation
-# ins = instanceSegmentation()
-# ins.load_model("pointrend_resnet50.pkl",detection_speed="fast",confidence=0.6)
-# target_classes = ins.select_target_classes(car=True,truck=True)
-# ins.segmentImage("test.jpg", show_bboxes=True, output_image_name="output_image2.jpg",segment_target_classes = target_classes)
-
-
-# import pixellib
-# from pixellib.torchbackend.instance import instanceSegmentation
-# import cv2
-
-
-# capture = cv2.VideoCapture()
-
-
-
-
-# segment_video = instanceSegmentation()
-# segment_video.load_model("pointrend_resnet50.pkl")
-# segment_video.process_camera(capture,  show_bboxes = True, frames_per_second= 5, check_fps=True, show_frames= True,frame_name= "frame", output_video_name="output_video.mp4")
-
-
-
-
-# import pixellib
-# from pixellib.torchbackend.instance import instanceSegmentation
-
-# ins = instanceSegmentation()
-# ins.load_model("pointrend_resnet50.pkl")
-# ins.process_video("sample_video.mp4", show_bboxes=True, frames_per_second=3, output_video_name="output_video.mp4")
-
-
-
 import pixellib
 import time
 from pixellib.torchbackend.instance import instanceSegmentation
